@@ -43,3 +43,10 @@ h2 {
 .buttonClass:hover {
     background-image: radial-gradient(ellipse farthest-corner, #12bdf1 20%, #747047 80%);
 }
+
+.contactForm {
+    color:blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
