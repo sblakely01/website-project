@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color:blanchedalmond;
+}
+.hero {
+    background-image: url("sunset-beach-ai-generated.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: blue;
+    width: 100%;
+    height: 40%;
+    justify-items: center;
+    font-size: 3rem;   
+    color:darkgoldenrod;
+}
+h1 {
+    justify-self: center;
+}
+h2 {
+    color:steelblue;
+    font-size: 5rem;
+    justify-self: center;
+}
+.heroButtons {
+    justify-self: center; 
+    flex-direction:row;
+    display:flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttonClass {
+    padding: 2rem;
+    margin: auto;
+    background-color:#12bdf1;
+    font-size: 2rem;
+}
+.buttonClass:focus,
+.buttonClass:hover {
+    background-image: radial-gradient(ellipse farthest-corner, #12bdf1 20%, #747047 80%);
+}
